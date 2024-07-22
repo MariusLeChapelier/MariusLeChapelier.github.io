@@ -35,6 +35,12 @@ params:
         # imageTitle: "Avatar" # optional
         # imageWidth: 120 # custom size
         # imageHeight: 120 # custom size
+        imageUrl: "https://github.com/MariusLeChapelier/MariusLeChapelier.github.io/blob/main/images/0106eb09bf210c6149e3aa3ca48c8dd3734a4d7803.jpg" # optional
+        # imageUrl: "/images/0106eb09bf210c6149e3aa3ca48c8dd3734a4d7803.jpg" # optional
+        # imageUrl: "https://avatars.githubusercontent.com/u/149801835?v=4" # optional
+        imageTitle: "Avatar" # optional
+        imageWidth: 120 # custom size
+        imageHeight: 120 # custom size
         buttons:
             - name: About
               url: "/about"
