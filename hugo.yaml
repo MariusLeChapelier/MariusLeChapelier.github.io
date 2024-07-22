@@ -2,3 +2,63 @@ baseURL: 'http://MariusLeChapelier.github.io/'
 languageCode: 'en-us'
 title: 'MariusLeChapelier website'
 theme: 'PaperMod'
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: MariusLeChapelier's website
+    description: "Where I just write about what I want."
+    keywords: [Blog, Portfolio, Computer Science, IA, NLP, Dialogue Systems, Marius]
+    author: Marius
+    DateFormat: "01/02/2006"
+
+    defaultTheme: auto # dark, light
+    disableThemeToggle: false
+
+    ShowReadingTime: true
+    ShowShareButtons: false
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    disableSpecial1stPost: false
+    disableScrollToTop: false
+    comments: false
+    hidemeta: false
+    hideSummary: false
+    showtoc: true
+    tocopen: false
+
+    profileMode:
+        enabled: true
+        title: "Hi! I'm Marius." # optional default will be site title
+        subtitle: "I'm a research engineer @articulab @almanach @INRIA, studying NLP and especially dialogue. I'm currently working on creating a new real-time multimodal dialogue system and embodied conversational agent."
+        # imageUrl: "https://avatars.githubusercontent.com/u/11200228?v=4" # optional
+        # imageTitle: "Avatar" # optional
+        # imageWidth: 120 # custom size
+        # imageHeight: 120 # custom size
+        buttons:
+            - name: About
+              url: "/about"
+            - name: Posts
+              url: "/posts"
+
+    socialIcons: # optional
+        - name: "GitHub"
+          url: "https://github.com/MariusLeChapelier"
+        - name: "gitlab"
+          url: "https://gitlab.com/MariusLC"
+        - name: "Email"
+          url: "mailto:mariuslechapelier@gmail.com"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/marius-le-chapelier-7694b5172/"
+        
+
+menu:
+    main:
+        - identifier: about
+          name: About
+          url: /about
+          weight: 10
+        - identifier: posts
+          name: Posts
+          url: /posts
+          weight: 20
