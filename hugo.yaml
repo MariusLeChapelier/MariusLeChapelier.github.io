@@ -1,6 +1,6 @@
 baseURL: 'http://MariusLeChapelier.github.io/'
 languageCode: 'en-us'
-title: 'MariusLeChapelier website'
+title: "Marius Le Chapelier's website"
 theme: 'PaperMod'
 
 params:
@@ -30,17 +30,12 @@ params:
     profileMode:
         enabled: true
         title: "Hi! I'm Marius." # optional default will be site title
-        subtitle: "I'm a research engineer @articulab @almanach @INRIA, studying NLP and especially dialogue. I'm currently working on creating a new real-time multimodal dialogue system and embodied conversational agent."
-        # imageUrl: "https://avatars.githubusercontent.com/u/11200228?v=4" # optional
-        # imageTitle: "Avatar" # optional
-        # imageWidth: 120 # custom size
-        # imageHeight: 120 # custom size
-        imageUrl: "https://github.com/MariusLeChapelier/MariusLeChapelier.github.io/blob/main/images/0106eb09bf210c6149e3aa3ca48c8dd3734a4d7803.jpg" # optional
-        # imageUrl: "/images/0106eb09bf210c6149e3aa3ca48c8dd3734a4d7803.jpg" # optional
-        # imageUrl: "https://avatars.githubusercontent.com/u/149801835?v=4" # optional
+        subtitle: "I'm a research engineer at [Inria Paris](https://www.inria.fr/en), where I study human interactions through the prism of AI and, especially, Natural Langage Processing (NLP) applied to human dialogue.
+I'm currently working on a real-time multimodal dialogue system and embodied conversational agent."
+        imageUrl: "https://avatars.githubusercontent.com/u/149801835?v=4" # optional
         imageTitle: "Avatar" # optional
-        imageWidth: 120 # custom size
-        imageHeight: 120 # custom size
+        imageWidth: 200 # custom size
+        imageHeight: 200 # custom size
         buttons:
             - name: About
               url: "/about"
