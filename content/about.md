@@ -23,3 +23,10 @@ We generally distinguish 3 types of signals, 3 **modalities** :
 It has been shown in multiple past research that the study of the relationship between these modalities is essential for a better understanding of human interaction, and that their synergy benefits greatly the modeling of such interaction. Our interest is to take forward the recent advances on training multimodal neural networks models to understand or generate human-like interactions.
 
 In this context, I'm currently working on a **real-time multimodal dialogue system** and **embodied conversational agent**. This project is a sequel of Articulab's previous [**SARA**](https://articulab.hcii.cs.cmu.edu/projects/sara/). A dialogue system is a system capable of having a conversation with a human interlocutor. Which implies that it must be able, in real-time, to process the user's multimodal signals : vocal (capturing user's voice with a microphone), verbal (extracting semantic information from user's transcription), non-verbal (capturing gesture, facial expression with a camera), and to generate similar signals through an avatar.
+
+Prior to this, I obtained my [Master's degree in Artificial Intelligence from Sorbonne Université](https://sciences.sorbonne-universite.fr/en/masters/master-computer-science/distributed-agents-robotics-operations-research-interaction), during which I studied the following AI subfields :
+
+- Interactive environments : virtual environments, human-computer interaction, serious games, video games, e-learning, information systems
+- Decision : decision theory, preference modeling and learning, multi-objective or multi-agent combinatorial optimization, Bayesian networks
+- Robotics and intelligent systems : agent and autonomous robot, multi-agent systems, machine learning
+- Operational research : mathematical programming, optimization and complexity, graphs and scheduling
